@@ -1,0 +1,45 @@
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+.head{
+    background-image: linear-gradient(to right, rgb(3, 3, 3) , rgb(77, 77, 77));
+}
+.container {
+    max-width: 60vw;
+    margin: 0 auto;    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.menu{
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin-top: 38px;
+    margin-left: 2rem;
+}
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 40px;
+}
+.myself-text {
+    margin-top: 150px;
+    color: #ffffff;
+}
+.myself-pic {
+    margin-top: 69px;
+    margin-bottom: 70px;
+}
+.school {
+    margin-top: 60px;
+}

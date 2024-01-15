@@ -4,85 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduce!</title>
-    <!-- FAVICON -->
     <link rel="shortcut icon" type="image/png" href="/work/web_programing/workshop1/assets/title.png"/>
+    <link rel="stylesheet" type="text/css" href="/work/web_programing/workshop1/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gotham';
+        }
+    </style>
 </head>
-<!-- import picture bg -->
-<body background='/work/web_programing/workshop1/assets/background.png'>
-    <br>
-    <!-- menu bar part & -->
-    <!-- align center -->
-    <div align="center">
-        <!-- logo -->
-        <img src="/work/web_programing/workshop1/assets/rememberurlie-logo.png" align="middle" height="50">
-        <!-- spacing menu and logo -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- menu (hyperlink) & set font & bold -->
-        <font face="Gotham">
-            <a href="/work/web_programing/workshop1/info.html">Homepage</a>&nbsp;&nbsp;
-            <a href="/work/web_programing/workshop1/hobby.html">Hobby</a>&nbsp;&nbsp;
-            <a href="/work/web_programing/workshop1/contact.html">Contact</a>
-        </font>
-        <br><br><br><br>
+<body style="background: url('/work/web_programing/workshop1/assets/background.png');">
+    <div class="head">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="/work/web_programing/workshop1/assets/rememberurlie-logo.png" height="50">
+                </div>
+                <ul class="menu">
+                    <li><a href="/work/web_programing/workshop1/info.html">Homepage</a></li>
+                    <li><a href="/work/web_programing/workshop1/hobby.html">Hobby</a></li>
+                    <li><a href="/work/web_programing/workshop1/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div align="center">
-        <!-- set font and font size -->
-        <!-- bold hilight text -->
-        <font face="Gotham" size="6">
-            <b>💼 My Contact & Social Media</b>
-            <br>
-        </font>
-        <!-- set font and font size -->
-        <!-- bold hilight text -->
-        <font face="Gotham Light" size="4">
-            You can contact and follow me from this way.
-            <br><br><br><br>
-        </font>
-        <!-- set font and font size-->
-        <!-- import pic & fix pic size in any part -->
-        <!-- add hyperlink and bold text -->
-        <!-- spacing with br tags -->
-        <font face="Gotham Light" size="4">
-            <!-- Email -->
-            <img src="/work/web_programing/workshop1/assets/scn-gmail.png" width="60px" height="60px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a href="mailto:netipong.jj@gmail.com">netipong.jj@gmail.com</a></b>
-            <br><br>
-            <!-- Facebook -->
-            <img src="/work/web_programing/workshop1/assets/scn-fb.png" width="60px" height="60px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a href="https://facebook.com/174eng">Netipong Sanklar</a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br><br>
-            <!-- Instagram -->
-            <img src="/work/web_programing/workshop1/assets/scn-ig.png" width="60px" height="60px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a href="https://instagram.com/174eng_">174eng_</a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br><br>
-            <!-- Threads -->
-            <img src="/work/web_programing/workshop1/assets/scn-threads.png" width="60px" height="60px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a href="https://threads.net/174eng_">174eng_</a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br><br>
-            <!-- X -->
-            <img src="/work/web_programing/workshop1/assets/scn-x.png" width="60px" height="60px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a href="https://x.com/RememberURLie">RememberURLie</a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br><br>
-            <!-- Tiktok -->
-            <img src="/work/web_programing/workshop1/assets/scn-tiktok.png" width="60px" height="60px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a href="https://tiktok.com/@174eng_">17eng_ อ่านว่าเจเอง</a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br><br>
-            <!-- Discord -->
-            <img src="/work/web_programing/workshop1/assets/scn-discord.png" width="60px" height="60px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a href="https://discordapp.com/users/161111988141817857">rememberurlie</a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br><br><br><br>
-        </font>
+    <div class="main">
+        <div class="container">
+            <div class="school" align="center">
+                <div>
+                    <h1>💼 My Contact & Social Media</h1>
+                </div>
+                <div style="margin-top: 60px;">
+                    <!-- Email -->
+                    <img src="/work/web_programing/workshop1/assets/scn-gmail.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="mailto:netipong.jj@gmail.com">netipong.jj@gmail.com</a></b>
+                    <br><br>
+                    <!-- Facebook -->
+                    <img src="/work/web_programing/workshop1/assets/scn-fb.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://facebook.com/174eng">Netipong Sanklar</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br>
+                    <!-- Instagram -->
+                    <img src="/work/web_programing/workshop1/assets/scn-ig.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://instagram.com/174eng_">174eng_</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br>
+                    <!-- Threads -->
+                    <img src="/work/web_programing/workshop1/assets/scn-threads.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://threads.net/174eng_">174eng_</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br>
+                    <!-- X -->
+                    <img src="/work/web_programing/workshop1/assets/scn-x.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://x.com/RememberURLie">RememberURLie</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br>
+                    <!-- Tiktok -->
+                    <img src="/work/web_programing/workshop1/assets/scn-tiktok.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://tiktok.com/@174eng_">174eng_ อ่านว่าเจเอง</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br>
+                    <!-- Discord -->
+                    <img src="/work/web_programing/workshop1/assets/scn-discord.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://discordapp.com/users/161111988141817857">rememberurlie</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br><br><br><br>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
