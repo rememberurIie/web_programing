@@ -6,74 +6,84 @@
     <title>Introduce!</title>
     <link rel="shortcut icon" type="image/png" href="/work/web_programing/workshop1/assets/title.png"/>
     <link rel="stylesheet" type="text/css" href="/work/web_programing/workshop1/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
+        @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
         body {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Gotham';
-        }
+            background: url('/work/web_programing/workshop1/assets/background.png');
+        }  
     </style>
 </head>
-<body style="background: url('/work/web_programing/workshop1/assets/background.png');">
-    <div class="head">
-        <div class="container">
-            <div class="header">
-                <div class="logo">
-                    <img src="/work/web_programing/workshop1/assets/rememberurlie-logo.png" height="50">
-                </div>
-                <ul class="menu">
-                    <li><a href="/work/web_programing/workshop1/info.html">Homepage</a></li>
-                    <li><a href="/work/web_programing/workshop1/hobby.html">Hobby</a></li>
-                    <li><a href="/work/web_programing/workshop1/contact.html">Contact</a></li>
-                </ul>
+<body>
+    <div class="header">
+        <div class="row" id="navbar">
+            <div class="col-sm-6" id="logo"><img src ="/work/web_programing/workshop1/assets/rememberurlie-logo.png" height="80px"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1" id="menu"><a href="/work/web_programing/workshop1/info.html">Homepage</a></div>           
+            <div class="col-sm-1" id="menu"><a href="/work/web_programing/workshop1/hobby.html">Hobby</a></div>
+            <div class="col-sm-1" id="menu"><a href="/work/web_programing/workshop1/contact.html">Contact</a></div>
+        </div>
+    </div>
+    <div class="content">
+
+        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="topic">
+                <h1>💼 My Contact & Social Media</h1>
+            </div>
+        </div>
+        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
+        </div>
+        <div class="row" id="data-box">
+            <div class="col-sm-6" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-gmail.png" height="50px" align="right">
+            </div>
+            <div class="col-sm-6" id="data-text">
+                <h2><b><a href="mailto:netipong.jj@gmail.com">netipong.jj@gmail.com</a></b></h2>
+            </div>
+        </div>
+        <div class="row" id="data-box">
+            <div class="col-sm-6" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/hobby-game.jpg" width="480px" height="300px">
+            </div>
+            <div class="col-sm-6" id="data-text">
+                <h2>🔺<b>Playing Game</b><br>enjoy with my friends.</h2>
+            </div>
+        </div>
+        <div class="row" id="data-box">
+            <div class="col-sm-6" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/hobby-vdo.jpg" width="480px" height="360px">
+            </div>
+            <div class="col-sm-6" id="data-text">
+                <h2>🔺<b>Video Editor</b><br> I use Premiere Pro to edit video.</h2>
+            </div>
+        </div>
+        <div class="row" id="data-box">
+            <div class="col-sm-6" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/hobby-photog.jpg" width="480px" height="360px">
+            </div>
+            <div class="col-sm-6" id="data-text">
+                <h2>🔺<b>Portrait/Landscape Photography</b><br> This photo shot by Samsung Galaxy S23 Ultra. 🕶</h2>
             </div>
         </div>
     </div>
-    <div class="main">
-        <div class="container">
-            <div class="school" align="center">
+    <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-12" align="center">
                 <div>
-                    <h1>💼 My Contact & Social Media</h1>
-                </div>
-                <div style="margin-top: 60px;">
-                    <!-- Email -->
-                    <img src="/work/web_programing/workshop1/assets/scn-gmail.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <b><a href="mailto:netipong.jj@gmail.com">netipong.jj@gmail.com</a></b>
-                    <br><br>
-                    <!-- Facebook -->
-                    <img src="/work/web_programing/workshop1/assets/scn-fb.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <b><a href="https://facebook.com/174eng">Netipong Sanklar</a></b>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br><br>
-                    <!-- Instagram -->
-                    <img src="/work/web_programing/workshop1/assets/scn-ig.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <b><a href="https://instagram.com/174eng_">174eng_</a></b>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br><br>
-                    <!-- Threads -->
-                    <img src="/work/web_programing/workshop1/assets/scn-threads.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <b><a href="https://threads.net/174eng_">174eng_</a></b>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br><br>
-                    <!-- X -->
-                    <img src="/work/web_programing/workshop1/assets/scn-x.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <b><a href="https://x.com/RememberURLie">RememberURLie</a></b>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br><br>
-                    <!-- Tiktok -->
-                    <img src="/work/web_programing/workshop1/assets/scn-tiktok.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <b><a href="https://tiktok.com/@174eng_">174eng_ อ่านว่าเจเอง</a></b>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br><br>
-                    <!-- Discord -->
-                    <img src="/work/web_programing/workshop1/assets/scn-discord.png" height="50px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <b><a href="https://discordapp.com/users/161111988141817857">rememberurlie</a></b>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br><br><br><br>
+                    <h3><strong>🧑🏻‍💻 Click this <a href="https://github.com/rememberurIie">My Github Userpage</a> for past project </strong></h3>
+                    🔸 I want to be better than yesterday, I improve myself skill everyday 🔸
                 </div>
             </div>
         </div>
     </div>
 </body>
-</html>
