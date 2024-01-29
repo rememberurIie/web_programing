@@ -12,16 +12,18 @@
         body {
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
             box-sizing: border-box;
             font-family: 'Gotham';
-            background: url('/work/web_programing/workshop1/assets/background.png');
+            background-image: linear-gradient(to top, rgba(27, 27, 27, 0.52), rgba(22, 22, 22, 0.73)),
+            url('https://papers.co/wallpaper/papers.co-vb40-wallpaper-geometry-black-pattern-36-3840x2400-4k-wallpaper.jpg');
         }  
     </style>
 </head>
 <body>
     <div class="header">
         <div class="row" id="navbar">
-            <div class="col-sm-6" id="logo"><img src ="/work/web_programing/workshop1/assets/rememberurlie-logo.png" height="80px"></div>
+            <div class="col-sm-6" id="logo"><img src="/work/web_programing/workshop1/assets/rememberurlie-logo-p.png" id="image" onclick="changeImage()" height="80px"/></div>
             <div class="col-sm-1"></div>
             <div class="col-sm-1"></div>
             <div class="col-sm-1"></div>
@@ -31,50 +33,64 @@
         </div>
     </div>
     <div class="content">
-
-        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
+        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 0.5vh; padding-bottom: 0.5vh;">
         </div>
         <div class="row">
             <div class="col-sm-12" id="topic">
                 <h1>💼 My Contact & Social Media</h1>
             </div>
         </div>
-        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
-        </div>
-        <div class="row" id="data-box">
-            <div class="col-sm-6" id="data-pic">
-                <img src="/work/web_programing/workshop1/assets/scn-gmail.png" height="50px" align="right">
-            </div>
-            <div class="col-sm-6" id="data-text">
-                <h2><b><a href="mailto:netipong.jj@gmail.com">netipong.jj@gmail.com</a></b></h2>
+        <div class="row" id="data-box-contact">
+            <div class="col-sm-12" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-gmail.png" height="100px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="mailto:netipong.jj@gmail.com">netipong.jj@gmail.com</a></b>
+                    
             </div>
         </div>
-        <div class="row" id="data-box">
-            <div class="col-sm-6" id="data-pic">
-                <img src="/work/web_programing/workshop1/assets/hobby-game.jpg" width="480px" height="300px">
-            </div>
-            <div class="col-sm-6" id="data-text">
-                <h2>🔺<b>Playing Game</b><br>enjoy with my friends.</h2>
-            </div>
-        </div>
-        <div class="row" id="data-box">
-            <div class="col-sm-6" id="data-pic">
-                <img src="/work/web_programing/workshop1/assets/hobby-vdo.jpg" width="480px" height="360px">
-            </div>
-            <div class="col-sm-6" id="data-text">
-                <h2>🔺<b>Video Editor</b><br> I use Premiere Pro to edit video.</h2>
+        <div class="row" id="data-box-contact">
+            <div class="col-sm-12" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-fb.png" height="100px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                <b><a href="https://facebook.com/174eng">Netipong Sanklar</a></b>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
-        <div class="row" id="data-box">
-            <div class="col-sm-6" id="data-pic">
-                <img src="/work/web_programing/workshop1/assets/hobby-photog.jpg" width="480px" height="360px">
+        <div class="row" id="data-box-contact">
+            <div class="col-sm-12" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-ig.png" height="100px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://instagram.com/174eng_">174eng_</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
-            <div class="col-sm-6" id="data-text">
-                <h2>🔺<b>Portrait/Landscape Photography</b><br> This photo shot by Samsung Galaxy S23 Ultra. 🕶</h2>
+        </div>
+        <div class="row" id="data-box-contact">
+            <div class="col-sm-12" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-threads.png" height="100px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                <b><a href="https://threads.net/174eng_">174eng_</a></b>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="row" id="data-box-contact">
+            <div class="col-sm-12" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-x.png" height="100px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://x.com/RememberURLie">RememberURLie</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="row" id="data-box-contact">
+            <div class="col-sm-12" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-tiktok.png" height="100px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://tiktok.com/@174eng_">174eng_ อ่านว่าเจเอง</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="row" id="data-box-contact">
+            <div class="col-sm-12" id="data-pic">
+                <img src="/work/web_programing/workshop1/assets/scn-discord.png" height="100px" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b><a href="https://discordapp.com/users/161111988141817857">rememberurlie</a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
     </div>
-    <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
+    <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 0.5vh; padding-bottom: 0.5vh;">
     </div>
     <div class="footer">
         <div class="row">
@@ -87,3 +103,12 @@
         </div>
     </div>
 </body>
+<script>
+    function changeImage() {
+        if (document.getElementById("image").src.match("/work/web_programing/workshop1/assets/rememberurlie-logo.png")){
+            document.getElementById("image").src = "/work/web_programing/workshop1/assets/rememberurlie-logo-p.png";
+        } else {
+            document.getElementById("image").src = "/work/web_programing/workshop1/assets/rememberurlie-logo.png";
+        }
+    }
+</script>

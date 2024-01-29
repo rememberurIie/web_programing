@@ -12,16 +12,18 @@
         body {
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
             box-sizing: border-box;
             font-family: 'Gotham';
-            background: url('/work/web_programing/workshop1/assets/background.png');
+            background-image: linear-gradient(to top, rgba(27, 27, 27, 0.52), rgba(22, 22, 22, 0.73)),
+            url('https://papers.co/wallpaper/papers.co-vb40-wallpaper-geometry-black-pattern-36-3840x2400-4k-wallpaper.jpg');
         }  
     </style>
 </head>
 <body>
     <div class="header">
         <div class="row" id="navbar">
-            <div class="col-sm-6" id="logo"><img src ="/work/web_programing/workshop1/assets/rememberurlie-logo.png" height="80px"></div>
+            <div class="col-sm-6" id="logo"><img src="/work/web_programing/workshop1/assets/rememberurlie-logo-p.png" id="image" onclick="changeImage()" height="80px"/></div>
             <div class="col-sm-1"></div>
             <div class="col-sm-1"></div>
             <div class="col-sm-1"></div>
@@ -39,15 +41,12 @@
         </div>
     </div>
     <div class="content">
-
-        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
+        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 0.5vh; padding-bottom: 0.5vh;">
         </div>
         <div class="row">
             <div class="col-sm-12" id="topic">
                 <h1>🎓 My School History</h1>
             </div>
-        </div>
-        <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
         </div>
         <div class="row" id="data-box">
             <div class="col-sm-6" id="data-pic">
@@ -74,16 +73,25 @@
             </div>
         </div>
     </div>
-    <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 1vh; padding-bottom: 1vh;">
+    <div class="row" style="background-color: #4158D0; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); padding-top: 0.5vh; padding-bottom: 0.5vh;">
     </div>
     <div class="footer">
         <div class="row">
             <div class="col-sm-12" align="center">
                 <div>
-                    📌 I am currently studying for a Bachelor's degree in Science-Technology, which is my second year of study<br>
-                    and studying Computer-Technology as my major at Rajamangala University of Technology Thanyaburi.
+                    <h3><strong>🧑🏻‍💻 Click this <a href="https://github.com/rememberurIie">My Github Userpage</a> for past project </strong></h3>
+                    🔸 I want to be better than yesterday, I improve myself skill everyday 🔸
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script>
+    function changeImage() {
+        if (document.getElementById("image").src.match("/work/web_programing/workshop1/assets/rememberurlie-logo.png")){
+            document.getElementById("image").src = "/work/web_programing/workshop1/assets/rememberurlie-logo-p.png";
+        } else {
+            document.getElementById("image").src = "/work/web_programing/workshop1/assets/rememberurlie-logo.png";
+        }
+    }
+</script>
