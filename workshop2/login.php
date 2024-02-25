@@ -64,11 +64,7 @@
          
             <button class="login" type="submit" name="login_user">Login</button>
 
-            <button class="cancel" type="button" onclick="window.location.href='index.php';">Cancel</button>
-
-            <span class="register" onclick="window.location.href='register.php';"><a href="#">Register</a></span>
-
-            <input type="checkbox"> จำการเข้าสู่ระบบ
+            <span class="register">You don't have account? <a href="register.php">Register</a></span>
 
             <?php if (isset($_SESSION['error'])) : ?>
                 <div class="error">

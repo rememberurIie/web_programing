@@ -77,8 +77,7 @@
             mysqli_query($conn, $sql_edit);
 
             if( mysqli_query($conn, $sql_edit)){
-                $_SESSION['username'] = $username;
-                $_SESSION['success'] = "Changed";
+                $_SESSION['change'] = "Changed";
                 header('location: index.php');
             }else{
                 array_push($errors, "error");

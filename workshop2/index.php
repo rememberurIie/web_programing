@@ -2,7 +2,6 @@
     include('conn_db.php');
     session_start();
     
-
     if (!isset($_SESSION['username'])){
         $_SESSION['msg'] = "Login first";
         header('location: login.php');
@@ -27,9 +26,8 @@
     <body>
 
         <div class="header">
-            <h1>
-                <a href="index.php">Home</a>
-            </h1>
+            <p><a href="index.php">Home</a><p/>
+            <p><a href="register.php">Register</a><p/>
         
         </div>
 
@@ -41,6 +39,17 @@
                         <?php 
                             echo $_SESSION['success'];
                             unset($_SESSION['success']);
+                        ?>
+                    </h3>
+                </div>
+            <?php endif ?>
+
+            <?php if (isset($_SESSION['change'])) : ?>
+                <div class="success">
+                    <h3>
+                        <?php 
+                            echo $_SESSION['change'];
+                            unset($_SESSION['change']);
                         ?>
                     </h3>
                 </div>
