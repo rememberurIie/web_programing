@@ -1,0 +1,38 @@
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+            font-family: 'Gotham';
+        } 
+.header{
+    background-image: linear-gradient(to top, rgba(48, 48, 48, 0.52), rgba(5, 5, 5, 0.73)),
+    url('https://scontent.fbkk29-9.fna.fbcdn.net/v/t39.30808-6/345913257_614344240371512_2146917695592802443_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEcSa_ESpnHfrXwifoPc8GCxwhxbGV1bVPHCHFsZXVtU1cvwq0D7hgNC-18ObSMYmh7rGuL0ik-CQPizUYo5AYS&_nc_ohc=8zK1ArAXco0AX8YbL1A&_nc_ht=scontent.fbkk29-9.fna&oh=00_AfBV-3q72dU-fShYow4byAClOoppqYa6MgVXFlwb4241rg&oe=65F1F0F9');
+}
+#navbar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10vh;
+    padding-right: 12vh;
+}
+#logo{
+    text-align: left;
+}
+#menu{
+    margin-top: 28px;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+}
+#menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#introduce{
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    color: rgb(233, 233, 233);
+    text-align: center;
+}
