@@ -1,0 +1,12 @@
+<div *ngFor="let school of schools">
+
+  <div class="row" id="data-box">
+    <div class="col-sm-6" id="data-pic">
+      <img src="{{ school.pic }}" width="480px" height="360px">
+    </div>
+    <div class="col-sm-6" id="data-text">
+      <h2>📍<b>{{ school.description }}</b> : {{school.name}}</h2>
+    </div>
+  </div>
+
+</div>
