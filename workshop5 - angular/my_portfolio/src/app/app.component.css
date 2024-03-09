@@ -38,9 +38,10 @@
 }
 .content{
     padding-bottom: 6vh;
+    background-image: url('https://cdn.discordapp.com/attachments/1215950990424146040/1216038749746761728/papers.co-vb40-wallpaper-geometry-black-pattern-36-3840x2400-4k-wallpaper-white.jpg?ex=65feef56&is=65ec7a56&hm=2140966ec2c58720fa57a5f64fd24eff1cdcee05300bd6bb76bbb94559515b76&');
 }
 #topic{
-    background-color: rgba(7, 7, 7, 0.897);
+    background-color: rgba(7, 7, 7, 0.63);
     padding-bottom: 70px;
     padding-top: 70px;
     color: rgb(226, 226, 226);
