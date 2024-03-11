@@ -1,5 +1,5 @@
 @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
-body {
+div {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -49,6 +49,7 @@ body {
     color: rgb(206, 206, 206);
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 #menu a {
     text-decoration: none;
