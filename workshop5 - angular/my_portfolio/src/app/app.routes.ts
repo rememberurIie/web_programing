@@ -6,7 +6,8 @@ import { HobbyListComponent } from './hobby-list/hobby-list.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 
 export const routes: Routes = [
-    { path: '', component: SchoolListComponent },
+  { path: '', component: SchoolListComponent },
+    { path: 'index', component: SchoolListComponent },
     { path: 'hobby', component: HobbyListComponent },
     { path: 'contact', component: ContactListComponent },
     // Other routes

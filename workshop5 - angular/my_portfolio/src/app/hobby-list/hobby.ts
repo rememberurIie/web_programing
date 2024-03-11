@@ -8,20 +8,26 @@ export interface Hobby {
   export const hobbys = [
     {
       id: 1,
-      name: 'Rabiebwittaya School',
-      pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216036381260910652/school-rabieb.jpg?ex=65feed22&is=65ec7822&hm=d1d4e17a9de36c7d5f8d8f7274ab01e8058c59df3978671949997c6ae2ef2ae4&',
-      description: 'Anuban 1 - Prathom 6'
+      name: 'Cracking APK Game File',
+      pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216732312260182097/hobby-modify.jpg?ex=66017545&is=65ef0045&hm=6c267dae968ab28086948acadc5047f7898dcd778f08c0f2edbec2aa5c65ea22&',
+      description: 'I tried to modding game with reverse engineering.'
     },
     {
       id: 2,
-      name: 'Thanyaburi School',
-      pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216036398012829797/school-tbs.jpg?ex=65feed26&is=65ec7826&hm=787207f040792ae4c450ffcba595c693822b3b652c56c2b6672fdbed15f92b67&',
-      description: 'Matayom 1 - Matayom 6'
+      name: 'Playing Game',
+      pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216732305930846298/hobby-game.jpg?ex=66017543&is=65ef0043&hm=bc0ae644ca5f9b94c871680965276737e820be797d3772a834ecce4756a18c80&',
+      description: 'enjoy with my friends.'
     },
     {
       id: 3,
-      name: 'Rajamangala Unversity Technology of Thanyaburi',
-      pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216036388517052416/school-rmutt.jpg?ex=65feed23&is=65ec7823&hm=17cd142fda3faea0c999776012bf55a130b767ee6c49d56bae39d2003470300d&',
-      description: 'University'
+      name: 'Video Editor',
+      pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216732320405651556/hobby-vdo.jpg?ex=66017546&is=65ef0046&hm=97643b32eb66a66e22bfe59cd5e192b7fff397dd44bd76c60aa5939a4cff6270&',
+      description: 'I use Premiere Pro to edit video.'
+    },
+    {
+      id: 4,
+      name: 'Portrait/Landscape Photography',
+      pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216732317729685534/hobby-photog.jpg?ex=66017546&is=65ef0046&hm=941996d523e7fbea2ee8420213f8ac54f6d10ee693178663715278edd305970a&',
+      description: 'This photo shot by Samsung Galaxy S23 Ultra. 🕶'
     }
   ];

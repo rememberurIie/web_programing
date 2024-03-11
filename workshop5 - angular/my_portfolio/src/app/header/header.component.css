@@ -1,0 +1,22 @@
+
+#navbar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10vh;
+    padding-right: 12vh;
+}
+#logo{
+    text-align: left;
+}
+#menu{
+    margin-top: 28px;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+#menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

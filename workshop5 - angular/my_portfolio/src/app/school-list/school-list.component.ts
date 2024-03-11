@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import {CommonModule} from '@angular/common';
 import { schools } from './school';
-import { Router } from '@angular/router';
-
+import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-school-list',
   standalone: true,
   imports: [   
     CommonModule,
+    HeaderComponent,
+    FooterComponent
   ],
   templateUrl: './school-list.component.html',
   styleUrl: './school-list.component.css'
@@ -17,24 +19,5 @@ import { Router } from '@angular/router';
 export class SchoolListComponent {
 
   schools = [...schools];
-  
-  constructor(
-  private router: Router
-  ){};
-
-  gotoIndex(){
-    this.router.navigate(['index']);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  gotoHobby(){
-    this.router.navigate(['hobby']);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  gotoContact(){
-    this.router.navigate(['contact']);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
 
 }

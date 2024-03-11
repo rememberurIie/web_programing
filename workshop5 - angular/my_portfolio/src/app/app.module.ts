@@ -8,6 +8,8 @@ import {NgIf} from '@angular/common';
 import { SchoolListComponent } from './school-list/school-list.component';
 import { HobbyListComponent } from './hobby-list/hobby-list.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,13 +19,13 @@ import { ContactListComponent } from './contact-list/contact-list.component';
     SchoolListComponent,
     HobbyListComponent,
     ContactListComponent,
-    NgIf
+    NgIf,
+    HeaderComponent,
+    FooterComponent
   ],
   declarations: [
-    AppComponent,
   ],
   bootstrap: [
-    AppComponent
   ]
 })
 export class AppModule { }
