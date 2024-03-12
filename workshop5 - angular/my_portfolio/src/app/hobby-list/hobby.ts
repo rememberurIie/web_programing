@@ -16,7 +16,7 @@ export interface Hobby {
       id: 2,
       name: 'Playing Game',
       pic: 'https://cdn.discordapp.com/attachments/1215950990424146040/1216732305930846298/hobby-game.jpg?ex=66017543&is=65ef0043&hm=bc0ae644ca5f9b94c871680965276737e820be797d3772a834ecce4756a18c80&',
-      description: 'enjoy with my friends.'
+      description: 'Enjoy with my friends.'
     },
     {
       id: 3,
