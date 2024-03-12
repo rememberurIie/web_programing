@@ -6,8 +6,7 @@ import { HobbyListComponent } from './hobby-list/hobby-list.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 
 export const routes: Routes = [
-  { path: '', component: SchoolListComponent },
-    { path: 'index', component: SchoolListComponent },
+    { path: '', component: SchoolListComponent },
     { path: 'hobby', component: HobbyListComponent },
     { path: 'contact', component: ContactListComponent },
     // Other routes
@@ -17,4 +16,5 @@ export const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
